@@ -23,4 +23,3 @@ COPY supervisord.conf /etc/supervisord.conf
 
 EXPOSE 80
 
-# ENTRYPOINT ["supervisord", "--nodaemon", "--configuration", "/etc/supervisord.conf"]
